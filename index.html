@@ -6,7 +6,7 @@
         content="PanGu-π: an enhanced LLM architecture via Nonlinearity Compensation">
   <meta name="keywords" content="LLM">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>PanGu-π: an enhanced LLM architecture via Nonlinearity Compensation"</title>
+  <title>PanGu-π: an enhanced LLM architecture via Nonlinearity Compensation</title>
 
   <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
         rel="stylesheet">
@@ -65,22 +65,14 @@
 </section>
 
 
-<section class="section">
-  <div class="container is-max-desktop">
-    <!-- Abstract. -->
-    <div class="columns is-centered has-text-centered">
-      <div class="column is-four-fifths">
-        <h2 class="title is-3">Abstract</h2>
-        <div class="content has-text-justified">
-          <p>
-            The recent trend of large language models (LLMs) is to increase the scale of both model size (a.k.a the number of parameters) and dataset to achieve better generative ability, which is definitely proved by a lot of work such as the famous GPT and Llama. However, large models often involve massive computational costs, and practical applications cannot afford such high prices. However, the method of constructing a strong model architecture for LLMs is rarely discussed. We first analyze the state-of-the-art language model architectures and observe the feature collapse problem. Based on the theoretical analysis, we propose that the nonlinearity is also very important for language models, which is usually studied in convolutional neural networks for vision tasks. The series informed activation function is then introduced with tiny calculations that can be ignored, and an augmented shortcut is further used to enhance the model nonlinearity. We then demonstrate that the proposed approach is significantly effective for enhancing the model nonlinearity through carefully designed ablations; thus, we present a new efficient model architecture for establishing modern, namely, PanGu-π. Experiments are then conducted using the same dataset and training strategy to compare PanGu-π with state-of-the-art LLMs. The results show that PanGu-π-7B can achieve a comparable performance to that of benchmarks with about 10% inference speed-up, and PanGu-π-1B can achieve state-of-the-art performance in terms of accuracy and efficiency. In addition, we have deployed PanGu-π-7B in the high-value domains of finance and law, developing an LLM named YunShan for practical application. The results show that YunShan can surpass other models with similar scales on benchmarks.
-          </p>
-        </div>
-      </div>
-    </div>
-    <!--/ Abstract. -->
-  </div>
-</section>
+<section class="Section">
+  <div class="container is-max-desktop content">
+    <h2 class="title is-3">Introduction</h2>
+    <figure>
+      <img src="pangu-pi.png" >
+    </figure>
+    <p>Introducing PanGu-π, a new architecture for Large Language Model. As the world of Large Language Models (LLMs) continues to evolve with larger models and datasets for enhanced performance, the critical aspect of LLM architecture improvement often remains overlooked. PanGu-π addresses this gap by introducing modules that significantly enhance nonlinearity, thereby greatly boosting the model's expressive capabilities. Achieving leading performance and efficiency in both 7B and 1B model scales, PanGu-π is a testament to the power of architectural innovation in LLMs. Further extending its impact, the specialized YunShan model is making waves in high-value domains such as finance and law, showcasing the practical and powerful application of this groundbreaking technology.</p>
+
 
 
 <footer class="footer">
